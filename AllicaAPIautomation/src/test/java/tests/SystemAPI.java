@@ -78,7 +78,7 @@ public class SystemAPI {
 
 		response.then().log().all().body(null).statusCode(200).statusLine("HTTP/1.1 200 OK");
 
-		ExcelWriter.LogResponse(1, response.getBody().asString(), response.getStatusCode(), response.getStatusLine(),
-				response.getTime());
+	//	ExcelWriter.LogResponse(1, response.getBody().asString(), response.getStatusCode(), response.getStatusLine(),
+		//		response.getTime());
 	}
 }

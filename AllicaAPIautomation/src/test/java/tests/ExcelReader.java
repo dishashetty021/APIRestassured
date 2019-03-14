@@ -16,7 +16,7 @@ public class ExcelReader {
 
 	public static Map<String, Map<String, String>> setMapData() throws Exception {
 
-		String path = "C:\\Users\\ZERO079.MDLT079\\Documents\\AllicaAPIautomation\\AllicaAPIautomation\\src\\test\\resources\\APIdata.xlsx";
+		String path = System.getProperty("user.dir")+"\\src\\test\\resources\\APIdata.xlsx";
 
 		FileInputStream fis = new FileInputStream(path);
 
@@ -37,15 +37,17 @@ public class ExcelReader {
 			Row row = sheet.getRow(i);
 
 			// Desired Cell as Value
-
+			Cell valueCell_httpmethod = row.getCell(2);
 			Cell valueCell_baseuri = row.getCell(3);
 			Cell valueCell_queryparam = row.getCell(4);
-
+			Cell valueCell_requestbody = row.getCell(6);
+			Cell valueCell_extract = row.getCell(7);
+			
 			// 0th Cell as Key
 			Cell keyCell = row.getCell(0);
 
-			String value = valueCell_baseuri.getStringCellValue().trim() + ","
-					+ valueCell_queryparam.getStringCellValue().trim();
+			String value = valueCell_httpmethod.getStringCellValue().trim() + "~"+valueCell_baseuri.getStringCellValue().trim() + "~"
+					+ valueCell_queryparam.getStringCellValue().trim() +"~"+valueCell_requestbody+ "~" +valueCell_extract;
 			String key = keyCell.getStringCellValue().trim();
 
 			// Putting key & value in dataMap
@@ -66,7 +68,7 @@ public class ExcelReader {
 
 		Map<String, String> m = setMapData().get("DataSheet");
 		String value = m.get(key);
-		String data[] = value.split(",");
+		String data[] = value.split("~");
 
 		return data;
 
