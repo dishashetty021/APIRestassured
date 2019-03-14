@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-01-11T11:21:51Z" name="Default suite" finished-at="2019-01-11T11:22:02Z" duration-ms="11356">
+    <groups>
+      <group name="negative">
+        <method signature="ExperienceAPI.TC_002()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_002" class="tests.ExperienceAPI"/>
+        <method signature="ExperienceAPI.TC_003()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_003" class="tests.ExperienceAPI"/>
+        <method signature="ExperienceAPI.TC_004()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_004" class="tests.ExperienceAPI"/>
+        <method signature="ExperienceAPI.TC_005()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_005" class="tests.ExperienceAPI"/>
+      </group> <!-- negative -->
+      <group name="postive">
+        <method signature="ExperienceAPI.TC_001()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_001" class="tests.ExperienceAPI"/>
+      </group> <!-- postive -->
+      <group name="ExperienceAPI">
+        <method signature="ExperienceAPI.TC_001()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_001" class="tests.ExperienceAPI"/>
+        <method signature="ExperienceAPI.TC_002()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_002" class="tests.ExperienceAPI"/>
+        <method signature="ExperienceAPI.TC_003()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_003" class="tests.ExperienceAPI"/>
+        <method signature="ExperienceAPI.TC_004()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_004" class="tests.ExperienceAPI"/>
+        <method signature="ExperienceAPI.TC_005()[pri:0, instance:tests.ExperienceAPI@33c911a1]" name="TC_005" class="tests.ExperienceAPI"/>
+      </group> <!-- ExperienceAPI -->
+    </groups>
+    <test started-at="2019-01-11T11:21:51Z" name="Default test" finished-at="2019-01-11T11:22:02Z" duration-ms="11356">
+      <class name="tests.ExperienceAPI">
+        <test-method is-config="true" signature="browser()[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:51:51Z" name="browser" finished-at="2019-01-11T16:51:51Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="TC_001()[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:51:51Z" name="TC_001" finished-at="2019-01-11T16:51:56Z" duration-ms="5565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:51:56Z" name="getResult" finished-at="2019-01-11T16:51:56Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_001 status=SUCCESS method=ExperienceAPI.TC_001()[pri:0, instance:tests.ExperienceAPI@33c911a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TC_002()[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:51:56Z" name="TC_002" finished-at="2019-01-11T16:51:58Z" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method signature="TC_003()[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:51:58Z" name="TC_003" finished-at="2019-01-11T16:51:59Z" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:51:58Z" name="getResult" finished-at="2019-01-11T16:51:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_002 status=SUCCESS method=ExperienceAPI.TC_002()[pri:0, instance:tests.ExperienceAPI@33c911a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TC_004()[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:51:59Z" name="TC_004" finished-at="2019-01-11T16:52:00Z" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:51:59Z" name="getResult" finished-at="2019-01-11T16:51:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_003 status=SUCCESS method=ExperienceAPI.TC_003()[pri:0, instance:tests.ExperienceAPI@33c911a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:52:00Z" name="getResult" finished-at="2019-01-11T16:52:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_004 status=SUCCESS method=ExperienceAPI.TC_004()[pri:0, instance:tests.ExperienceAPI@33c911a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TC_005()[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:52:00Z" name="TC_005" finished-at="2019-01-11T16:52:02Z" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:52:02Z" name="getResult" finished-at="2019-01-11T16:52:02Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_005 status=SUCCESS method=ExperienceAPI.TC_005()[pri:0, instance:tests.ExperienceAPI@33c911a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.ExperienceAPI@33c911a1]" started-at="2019-01-11T16:52:02Z" name="endReport" finished-at="2019-01-11T16:52:02Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.ExperienceAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
